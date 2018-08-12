@@ -132,3 +132,29 @@ footer {
     width: 100%;
     border-top: 5px solid #4aaaa5;
 }
+
+@media screen and (max-width: 980px) {
+    .wrapper {
+        max-width: 600px;
+    }
+    .maincopy {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .mainimage {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .maincopy {
+        float: none;
+        max-width: 100%;
+        padding: 0;
+    }
+    .wrapper {
+        max-width: 95%;
+    }
+}
