@@ -23,6 +23,13 @@ header {
     background-color: #fff;
 }
 
+.maincontent1 {
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
 .nav {
     padding-top: 15px;
     float: right;
@@ -64,6 +71,7 @@ header {
     padding: 20px;
     margin-top: 40px;
     margin-bottom: 150px;
+    width: 100%;
 }
 
 .mainimage {
@@ -101,9 +109,9 @@ textarea {
 
 .piece {
     float: left;
-    width: 300px;
+    width: 270px;
     position: relative;
-    margin: 10px;
+    margin: 20px;
 }
 
 .label {
@@ -114,11 +122,6 @@ textarea {
     background-color: #4aaaa5;
     color: #fff;
     width: 100%;
-}
-
-.center {
-    width: 100%;
-    display: block;
 }
 
 footer {
@@ -139,6 +142,12 @@ footer {
     }
     .maincopy {
         max-width: 300px;
+    }
+
+    .piece{
+        float: none;
+        display: block;
+        margin: 0 auto;
     }
 }
 
